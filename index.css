@@ -1,0 +1,94 @@
+body {
+	background-color: #1b244a;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+	padding-top: 60px;
+}
+
+.heading {
+	width: 149px;
+	height: 36px;
+	top: 68px;
+	left: 85px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: Verdana;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 35.89px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #eeeeee;
+}
+
+.scoreboard {
+	width: 155px;
+	height: 120px;
+	top: 125px;
+	left: 82px;
+	gap: 0px;
+	border-radius: 5px;
+	opacity: 0px;
+	background: #080001;
+}
+
+.score {
+	display: flex;
+	justify-content: center;
+	gap: 0px;
+	opacity: 0px;
+	font-family: Cursed Timer ULiL;
+	font-size: 90px;
+	font-weight: 400;
+	line-height: 126.67px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #f94f6d;
+}
+
+.enemies {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: Verdana;
+	font-size: 60px;
+	font-weight: 700;
+	font-style: italic;
+	color: #eeeeee;
+}
+
+.counter {
+	width: 155px;
+	height: 45px;
+	margin-top: 16px;
+}
+
+.btn {
+	width: 30px;
+	height: 25.77px;
+	gap: 22;
+	opacity: 0px;
+	width: 45px;
+	height: 45px;
+	gap: 0px;
+	border-radius: 5px;
+	border: 2px;
+	opacity: 0px;
+	border: 2px solid #9aabd8;
+	color: #9aabd8;
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27.81px;
+	text-align: center;
+	text-decoration-skip-ink: none;
+	background-color: #1b244a;
+	margin-left: 4px;
+}
